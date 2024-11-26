@@ -38,11 +38,6 @@ npm install express cors dotenv
 2. Run the server:
    You have two options to start the server:
 
-   - Option 1: Using node
-   This will run the server without automatic restarts:
-```bash
-node app.js
-```
 
   - Option 1: Using node
    This will run the server without automatic restarts:
@@ -53,4 +48,10 @@ node app.js
    If nodemon is not installed globally, you can install it using:
  ```bash
 npm install -g nodemon
+```
+
+ - Option 1: Using node
+   This will run the server without automatic restarts:
+```bash
+node app.js
 ```
