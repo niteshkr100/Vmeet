@@ -43,12 +43,12 @@ npm install express cors dotenv
 ```bash
 node app.js
 ```
-- Option 2: Using nodemon
+   - Option 2: Using nodemon
    This will monitor file changes and restart the server automatically:
 ```bash
 nodemon app.js
 ```
- If nodemon is not installed globally, you can install it using:
+   If nodemon is not installed globally, you can install it using:
  ```bash
 npm install -g nodemon
 ```
