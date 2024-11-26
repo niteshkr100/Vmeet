@@ -22,3 +22,33 @@
    git push origin feature/your-feature
    ```
    #### 7. Open a Pull Request (PR) against the main repository.
+
+   ## How to run contact backend
+
+1. Navigate to the server directory:
+   - Open your terminal and change the directory to the server folder
+
+2. Install dependencies:
+   - Ensure you have Node.js installed. Then, install the required modules (express, cors, and dotenv):
+
+```bash
+npm install express cors dotenv
+```
+
+2. Run the server:
+   You have two options to start the server:
+
+   - Option 1: Using node
+   This will run the server without automatic restarts:
+```bash
+node app.js
+```
+- Option 2: Using nodemon
+   This will monitor file changes and restart the server automatically:
+```bash
+nodemon app.js
+```
+ If nodemon is not installed globally, you can install it using:
+ ```bash
+npm install -g nodemon
+```
